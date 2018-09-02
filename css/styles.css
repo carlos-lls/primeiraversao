@@ -1,9 +1,8 @@
-body{
+  body{
     margin: 0;
-}
+  }
 
-
-  header{
+    header{
     opacity: 0.85;
       display: flex;
     flex-direction: column;
@@ -16,17 +15,16 @@ body{
 }
 
 
-.topo{
+  .topo{
     
-display: flex;
+    display: flex;
     margin: 5vh ;
-}
+   }
 
-.topo p{
+ .topo p{
     margin-top: 0;
-    text-align: left;
     margin-right: 2vh;
-}
+   }
 
   .menu a{
       font-size: 30px;
@@ -35,33 +33,41 @@ display: flex;
       color: #0badb6;
   }
 
-.obs p{
+   .obs p{
     margin: 5vh;
     color:#b8caf3;
-}
-
-.sol{
-margin: 5vh;
-
-}
-
-.sol p{
-
-    text-align: left;
-}
-
-
-.sol img{
-width: 1200px;
-}
-
-
-p{
-    color: black; 
     text-align: center;
-    font-size: 25px;
-    font-weight: 800;
+  }
+
+  .sol{
+    margin: 5vh;
+
+  }
+
+    .sol img{
+        margin-left: 7vh;
+   }
+
+   .planetas {
+        justify-content: center;
+       display: flex;
+    }
+
+  .textplan p{
+    margin: 5vh;
+
+   }
+
+ .cometatext{
+     margin: 0 5vh;
 }
+
+    p{
+        color: black; 
+        text-align: left;
+        font-size: 25px;
+        font-weight: 800;
+     }
 
 h1{
 font-size: 45px;
@@ -75,6 +81,34 @@ h1, h2{
     font-weight: 800;
     
 }
+
+h3{
+    color: #830dea;
+    font-size: 40px;
+    margin-left: 5vh;
+}
+ 
+ .linkwik{
+     font-size:30px;
+     width: 20vh;
+     margin: 2vh;
+}
+
+.tiposdeplanetas{
+  font-size: 25px;
+
+}
+
+.tiposdeplanetas li b{
+    font-size: 30px;
+    color: red;
+}
+
+.tiposdeplanetas li{
+     margin: 2vh;
+     margin-right: 4vh;
+}
+  
 .menu img{
     height: 100%;
     width: 60px;
