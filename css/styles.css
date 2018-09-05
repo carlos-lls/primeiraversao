@@ -14,7 +14,6 @@
     top: 0;
 }
 
-
   .topo{
     
     display: flex;
@@ -62,17 +61,29 @@
      margin: 0 5vh;
 }
 
-    p{
-        color: black; 
-        text-align: left;
-        font-size: 25px;
-        font-weight: 800;
-     }
+ .vialactea p{
+     margin:5vh;
+    }
 
-h1{
-font-size: 45px;
-margin-top: 20vh;
-}
+ strong{
+     color: #0b0e8a;
+  }
+
+  a{
+      text-decoration: none;
+    }
+
+ p{
+    color: black; 
+    text-align: left;
+    font-size: 25px;
+    font-weight: 800;
+    }
+
+  h1{
+     font-size: 45px;
+     margin-top: 20vh;
+     }
 
 h1, h2{
     font-size: 45px;
@@ -119,12 +130,13 @@ h3{
 
 section img{
     margin-left: 15px;
-    width: 560px;
-    height: 315;
+  
 }
 
 .videos {
      display: flex;
+    justify-content: center;
+   
 }
 
 .videos iframe {
