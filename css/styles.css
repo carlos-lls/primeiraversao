@@ -186,4 +186,24 @@ footer a{
     color:blue;
 }
 
+@media screen and (max-width: 1015px) {
+	
 
+                  .topo{    display: block; }
+                   .topo img{width: 80%}
+                   .videos{width: 95%;
+                                 display: initial;}
+
+ }
+
+
+@media screen and (max-width: 1015px) {
+	
+
+                  .sol img  {   width: 80%   }
+                  .comet   {   width: 80%}
+                  .vialactea img  {   width: 80%}
+                   .planetas  {        display: grid; }  
+                    .planetas img {width: 60%;
+                                               margin:2vh; }        
+ }
